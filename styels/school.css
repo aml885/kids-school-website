@@ -189,3 +189,12 @@ justify-items: center;
     .Contribution, .Confidence{
       text-align: center; 
     }
+}
+/*  standard Curriculum  */
+@media screen and (max-width: 480px) {
+    .Curriculum{
+       flex-direction: column; 
+       justify-content: center;
+       align-items: center;
+    }
+}
