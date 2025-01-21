@@ -5,6 +5,7 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -60,6 +61,7 @@
     height: 50px;
     color: white;
     border-style: none;
+    
 }
  /* banner style */
  .banner{
@@ -96,6 +98,82 @@
    width: 197px;
 height: 50px;
 }
+
+/* Standard Curriculum  */
+.Standard{
+    background-image: url(../assets/bg.png);
+}
+
+.section-title{
+   text-align: center; 
+   font-weight: bold;
+   font-size: 2.87rem;
+   padding: 60px;
+  
+}
+
+.Curriculum{
+    display: flex;
+    justify-content: space-around;
+    gap: 28px;
+    margin: 80px 140px;
+    
+}
+.Kinder{
+ box-shadow:  0px 4px 10px rgba(0, 0, 0, 0.1);  
+ align-items: center;
+ border-radius: 18px;
+ width: 367px;
+ height: 476px;
+
+ background: linear-gradient(180deg, #def5ff 0%, rgba(255, 255, 255, 0) 40%),
+ #fff;
+}
+.assets{
+    padding: 52px 115px 32px 115px;
+}
+.Elementary{
+    box-shadow:  0px 4px 10px rgba(0, 0, 0, 0.1);  
+    text-align: center;
+    border-radius: 18px;
+    width: 367px;
+    height: 476px;
+    background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+} 
+.Middle{
+    box-shadow:  0px 4px 10px rgba(0, 0, 0, 0.1);  
+    text-align: center;
+    border-radius: 18px;
+    width: 367px;
+    height: 476px;
+    background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+}
+.image-title{
+    font-weight: bold;
+    font-size: 1.56rem;
+    padding-left: 78px;
+
+}
+.image-paragrap{
+   font-weight: 400px; 
+   font-size: .94rem;
+   color: #808080;
+    padding-left: 40px;
+}
+   .Read-More{
+    font-weight: bold;
+    font-size: .93rem;
+    color: #64C8FF;
+    padding: 33px 132px 53px 132px;
+   }
+ 
+
+
+
+
+
 /* header media quary */
 @media screen and (max-width: 480px) {
     .banner{
@@ -111,4 +189,3 @@ justify-items: center;
     .Contribution, .Confidence{
       text-align: center; 
     }
-}
