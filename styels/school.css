@@ -1,0 +1,114 @@
+
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    
+}
+.nav-link a{
+    text-decoration: none;
+}
+.school{
+  font-weight: bold;  
+  font-size: 2rem;
+  width: 129px;
+  height: 30px;
+  color: rgba(17, 17, 17, 1);
+}
+.nav-link .home{
+    font-weight: bold;
+    font-size: 1.25rem;
+   color: #FEA301;
+}
+.nav-link .About{
+   font-weight: 600px;
+   font-size: 1.25rem; 
+   color: #01ACFD;
+}  
+.nav-link .Facilities{
+    font-weight: 600px;
+    font-size: 1.25rem;
+    color: #05D4DF;
+}
+.nav-link .Admission{
+    font-weight: 600px;
+    font-size: 1.25rem;
+    color: #5D58EF;
+}
+.btn-primary{
+    background-color: #FEA301;
+    border-radius: 12px;
+    padding: 10px;
+    width: 197px;
+    height: 50px;
+    color: white;
+    border-style: none;
+}
+ /* banner style */
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 140px;
+    align-items: center;
+    gap: 50px;
+ }
+ .Dynamic-World{
+    width: 640px;
+    height: 331px;
+ }
+ .Contribution{
+    font-weight: bold;
+    font-size: 3.5rem;
+ }
+ .span1{
+    color: #FEA301;
+ }
+ .span3{
+    color: #01ACFD;
+ }
+.Confidence{
+    font-weight: 400px;
+    font-size: 1.25rem;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.Enroll-Now{
+   background-color: #111111; 
+   color: white;
+   border-radius: 12px;
+   width: 197px;
+height: 50px;
+}
+/* header media quary */
+@media screen and (max-width: 480px) {
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-items: center;
+        
+    }
+    .navbar{
+flex-direction: column;
+justify-items: center;
+    }
+    .Contribution, .Confidence{
+      text-align: center; 
+    }
+}
