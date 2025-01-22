@@ -242,6 +242,68 @@ height: 50px;
     border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3)
  }
+ 
+
+
+
+/*  footer */
+.column-title{
+    display: flex;
+}
+.footer-title{
+    display: flex;
+    justify-content: space-around;
+    background-color:#01ACFD ;
+    width: 100%px;
+    height: 519px;
+    padding-top: 123px;
+}
+ a{
+   text-decoration: none;
+   list-style: none;
+}
+
+.footer-paragap{
+    font-weight: 400px;
+    font-size: 1.25rem;
+    color: white;
+    width: 399px;
+}
+.footer-column ul{
+    list-style: none;
+    
+}
+.About-School{
+   color: white; 
+   font-weight: 400px;
+   font-size: 1.25rem;
+}
+.About{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.Touch{
+    font-weight: bold;
+    font-size: 1.62rem;
+    color: white;
+}
+.Kids{
+    color: white;
+    font-weight: bold;
+    font-size: 2.62rem;
+
+}
+.Kids-Education{
+    color: white;
+    width: 82px;
+   
+}
+.footer-column{
+    margin-right: 243px;
+}
+
+
 
 
 /* header media quary */
@@ -294,4 +356,19 @@ justify-items: center;
         margin: 20px 20px;
     }
   
+}
+
+/*  footer */
+@media screen and (max-width:412px) {
+    .column-title, .footer-title{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+   .column-title{
+    text-align: center;
+    padding-left: 20px;
+   }
 }
