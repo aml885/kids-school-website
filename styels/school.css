@@ -169,13 +169,83 @@ height: 50px;
     padding: 33px 132px 53px 132px;
    }
  
+/*  our story */
+.main-title{
+    font-weight: bold;
+    font-size: 2.88rem;
+    text-align: center;
+    margin: 60px 489px 80px 489px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+    
 
+}
 
+.story1{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-top: 30px;
+    border-radius: 16px;
+}
+.classroom{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 47px 38px;
+}
+.platform{
+    font-weight: 400px;
+    font-size: .94rem;
+    color: #666666;
+    margin-bottom: 47px;
+    padding-left: 38px;
+}
 
+.story{
+    display: flex;
+    gap: 10px;
+}
+ .the-family{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+ }
+ .needs{
+   height: 310px;
+   border-radius: 10px;
+   padding-top: 20px;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3)
+   
+   
+ }
+ .Find{
+    width: 198px;
+    height: 48px;
+   
+ }
+ .literacy{
+    height: 310px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3)
+ }
+ .management{
+    height: 310px;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3)
+ }
+ .Conversation {
+    height: 310px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3)
+ }
 
 
 /* header media quary */
-@media screen and (max-width: 480px) {
+@media screen and (max-width:412px) {
     .banner{
         flex-direction: column-reverse;
         text-align: center;
@@ -189,12 +259,39 @@ justify-items: center;
     .Contribution, .Confidence{
       text-align: center; 
     }
+    .child{
+        margin: auto;
+        width: 400px;
+    }
+    .Dynamic-World{
+        width: 400px;
+        padding-bottom:250px;
+    }
+    .nav-link{
+        margin: 20px 130px;
+    }
 }
 /*  standard Curriculum  */
-@media screen and (max-width: 480px) {
+@media screen and (max-width:412px) {
     .Curriculum{
        flex-direction: column; 
        justify-content: center;
        align-items: center;
+       text-align: center;
+      
     }
+}
+/*  our story */
+@media screen and (max-width:412px) {
+    .story1{
+        display: none;
+    }
+    .the-family{
+        flex-direction: column;
+        
+    }
+    .main-title{
+        margin: 20px 20px;
+    }
+  
 }
